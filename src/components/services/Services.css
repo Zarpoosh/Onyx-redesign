@@ -1,0 +1,58 @@
+.banner-section {
+  /* background-color: #121212; */
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.banner-row {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 20px 0;
+}
+
+.banner-track {
+  display: flex;
+  animation: scrollRight 40s linear infinite;
+}
+
+.banner-row.move-left .banner-track {
+  animation: scrollLeft 40s linear infinite;
+}
+
+.banner-item {
+  flex: 0 0 auto;
+  margin: 0 15px;
+}
+
+.banner-item img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.5s;
+}
+
+.banner-item img:hover {
+  transform: scale(1.05);
+}
+
+/* حرکت از چپ به راست */
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* حرکت از راست به چپ */
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
