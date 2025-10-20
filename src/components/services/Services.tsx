@@ -15,8 +15,14 @@ const Banners: React.FC = () => {
 
   return (
     <>
-      <section className="banner-section">
+      <section id="services" className="banner-section">
         <h2 className="fw-bold text-center mb-4">محصولات و خدمات </h2>
+        <p className="text-end p-4">
+              کلیه مراحل زمین‌شناسی، اکتشاف، استخراج، بهره‌برداری و صنایع تبدیلی در این مجموعه
+              به‌صورت اختصاصی و مستقل انجام می‌شود. همچنین با سال‌ها فعالیت تخصصی در
+              آزمایشگاه‌های مجهز، واحد تحقیق و توسعه (R&D) تأسیس شده تا فرآیند تولید بر پایه‌ی
+              دانش و تجربه هدایت گردد.
+            </p>
         <div className="banner-row move-right my-5">
           <div className="banner-track">
             {allImages.map((src, i) => (

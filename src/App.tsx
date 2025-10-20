@@ -8,6 +8,10 @@ import "./styles/global.css"
 import Services from "./components/services/Services";
 import Products from "./components/products/Products";
 import BackToTop from "./components/BackToTop";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Footer from "./components/footer/Footer";
+import SubscriptionSection from "./components/footer/Subscreption";
 
 
 const App: React.FC = () => {
@@ -37,8 +41,12 @@ const App: React.FC = () => {
 
       <OffcanvasExample darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       <ImageSlider/>
-      <Services/>
       <Products/>
+      <Services/>
+      <About/>
+      <Projects/>
+      <SubscriptionSection/>
+      <Footer/>
       <BackToTop/>
     </div>
     </>

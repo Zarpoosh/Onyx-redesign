@@ -14,7 +14,7 @@ const ImageSlider: React.FC = () => {
   ];
 
   return (
-    <div className="image-slider-wrapper position-relative">
+    <div id='home' className="image-slider-wrapper position-relative">
       <Carousel fade interval={4000} controls indicators>
         {slides.map((src, index) => (
           <Carousel.Item key={index}>

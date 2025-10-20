@@ -43,24 +43,24 @@ const NavbarComponent: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) =>
           className="custom-offcanvas"
         >
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Menu</Offcanvas.Title>
+            <Offcanvas.Title>منو</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About Us</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#services">Services</Nav.Link>
-              <Nav.Link href="#products">Products</Nav.Link>
+              <Nav.Link href="#home"> صفحه اصلی</Nav.Link>
+              <Nav.Link href="#about">درباره ما</Nav.Link>
+              <Nav.Link href="#projects">پروژه ها</Nav.Link>
+              <Nav.Link href="#services">خدمات</Nav.Link>
+              <Nav.Link href="#products">محصولات</Nav.Link>
             </Nav>
 
             <Form className="d-flex mt-3 mt-lg-0">
               <Form.Control
                 type="search"
-                placeholder="Search"
+                placeholder="جستوجو"
                 className="me-2 search-input border-2"
               />
-              <Button className="btn-custom search-btn">Search</Button>
+              <Button className="btn-custom search-btn">جستوجو</Button>
             </Form>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
