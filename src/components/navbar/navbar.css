@@ -1,5 +1,5 @@
-.custom-navbar {
-    background: rgba(0, 0, 0, 0.6); /* مشکی شیشه‌ای */
+/* .custom-navbar {
+    background: rgba(0, 0, 0, 0.6);  
     backdrop-filter: blur(8px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
@@ -16,32 +16,29 @@
     transition: color 0.3s ease;
   }
   
-  .nav-link:hover {
-    color: #0d6efd !important; /* آبی روشن در حالت hover */
-  }
-  
-  /* حذف outline از input */
-  .search-input {
-    outline: none !important;
-    box-shadow: none !important;
-    border: none !important;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-  }
-  
   .search-input::placeholder {
     color: #ccc;
-  }
-  
-  /* دکمه جستجو */
-  .search-btn {
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    color: #fff;
-    transition: all 0.3s ease;
-  }
-  
+    }
+    
+    .search-btn {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #fff;
+      transition: all 0.3s ease;
+      }
+      
   .search-btn:hover {
     background-color: #0d6efd;
     border-color: #0d6efd;
-  }
-  
+    }
+    */
+    .search-input {
+      outline: none !important;
+      box-shadow: none !important;
+      /* border: none !important; */
+      /* background: rgba(255, 255, 255, 0.479); */
+    }
+    
+    .nav-link:hover {
+      color: #51fd0d !important; 
+    }
+    
